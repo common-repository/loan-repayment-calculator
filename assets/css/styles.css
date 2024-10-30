@@ -1,0 +1,282 @@
+.homeloan_repayment .top-title {background: #0066ac none repeat scroll 0 0;color: #ffffff;margin: 0 0 30px;padding: 20px 0;}
+input[type="text"], select {background-color: #d2dce2;border: 1px solid #d2dce2;color: #1c3142;height: 39px;min-height: inherit;padding: 0 3px 0 15px;text-align: left;min-width:50%;}
+select {background-color: #d2dce2;border: 1px solid #d2dce2;color: #1c3142;height: 39px;min-height: inherit;padding: 0 3px 0 5px;text-align: left;min-width:58%;}
+input[type="text"]:focus {box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);outline: 0 none;}
+.loan-rate-term {display: inline-block;padding: 30px 0 0;width: 100%;}
+.display-emi-amt > #displayemiamt, .total-interest-payable #displaytotalinterestpayable, #savedtime {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.homeloan_repayment .calc-output-right {
+    background: #f1f1f1 none repeat scroll 0 0;
+    display: table;
+    margin: 0 0 30px;    
+    width: 100%;
+}
+
+.total-price, .total-interest-payable .price {
+    color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px 0 0;
+	font-size:30px;
+}
+.total-interest-payable #displaytotalinterestpayable, .total-interest-payable .price {
+    color: #333333;
+    font-size: 18px;
+}
+.homeloan_repayment .display-emi-amt {
+    background: #0066ac none repeat scroll 0 0;
+    
+}
+.total-interest-payable {
+    background: #d2dce2 none repeat scroll 0 0;
+   
+}
+/**************Range-Slider********************/
+/* *********************** */
+*, *:before, *:after {
+  box-sizing: border-box;
+  outline:0;
+}
+
+.range-slider {
+  margin: 15px 0 20px 0;
+}
+
+.range-slider {
+  width: 100%;
+}
+
+
+.range-slider__range {
+  -webkit-appearance: none;
+  width: calc(100% - (73px));
+  height: 10px;
+  border-radius: 5px;
+  background: #d7dcdf;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+.range-slider__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2c3e50;
+  cursor: pointer;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+.range-slider__range::-webkit-slider-thumb:hover {
+  background: #0066ac;
+}
+.range-slider__range:active::-webkit-slider-thumb {
+  background: #0066ac;
+}
+.range-slider__range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50%;
+  background: #2c3e50;
+  cursor: pointer;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+.range-slider__range::-moz-range-thumb:hover {
+  background: #0066ac;
+}
+.range-slider__range:active::-moz-range-thumb {
+  background: #0066ac;
+}
+
+.range-slider__value {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 3px;
+  background: #2c3e50;
+  padding: 5px 10px;
+  margin-left: 8px;
+}
+.range-slider__value:after {
+  position: absolute;
+  top: 8px;
+  left: -7px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-right: 7px solid #2c3e50;
+  border-bottom: 7px solid transparent;
+  content: '';
+}
+
+::-moz-range-track {
+  background: #d7dcdf;
+  border: 0;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+  border: 0;
+}
+/**********************************/
+
+table.dataTable.no-footer {border: medium none !important;}
+.calc-output-left {border: 1px solid #cccccc;margin-bottom: 20px;}
+.calc-output {
+     max-height: 500px;
+	 overflow-x: hidden;
+    overflow-y: unset;
+}
+.calc-result-data {
+    padding: 0 0 30px;
+}
+
+.calc-output-left .table-responsive {
+    margin-bottom: 0;
+}
+
+
+
+ul {color: #444444;list-style: outside none none;margin: 0;padding: 0;}
+.results-wrapper ul li.no-margin { margin: 0 !important;}
+.results-wrapper ul li { margin: 10px 0 0;}
+/*.ui-slider .ui-slider-handle {height:17px !important; width: 20px !important; background-color:#1a528f !important;}*/
+/*.ui-slider .ui-slider-handle {height:1.2em !important; width: 2em !important; background-color:#1a528f !important; text-align:center !important;}*/
+
+                    
+.ui-slider-handle {
+	border-radius: 23px !important;
+	height: 40px !important;
+	width: 40px !important;
+	top: -15px !important;
+	margin-left: -11px !important;
+	border: solid 1px #d8d8d8 !important;
+	background-color: #9cc14d !important;
+}
+  
+.box-style{text-align: center;font-weight: bold;line-height: 45px; }
+
+#borrow_amount_res, #interest_fees_res, #repay_res, #weekly_payment_res {
+	color: #9cc14d;
+}
+
+
+
+@media(max-width:736px)
+{
+	.stamp_duty input.txt_input, .stamp_duty select.ddl_select{margin: 0px 0 20px;}
+	.stamp_duty span#chk_collapse{ padding: 1px;}
+	
+}
+@media(max-width:640px)
+	{
+        .results-wrapper .stamp-duty-info-box {width: 100%;}
+		.results-wrapper .outputs-wrapper {width: 100%;}
+}
+@media(min-width:320px) and (max-width:360px)
+{
+.results-wrapper .stamp-duty-info-box .info-box {margin: 2px 0 0 8px;}
+	.results-wrapper .stamp-duty-info-box .info-box {height: 280px;}
+}
+@media(min-width:414px) and (max-width:480px)
+{
+.results-wrapper .stamp-duty-info-box .info-box {margin: 2px 0 0 13px;}
+	.results-wrapper .stamp-duty-info-box .info-box {height: 240px;}
+}
+@media(min-width:481px) and (max-width:735px)
+{
+.results-wrapper .stamp-duty-info-box .info-box {margin: 2px 0 0 18px;}
+	.results-wrapper .stamp-duty-info-box .info-box {height: 180px;}
+}
+
+@media (min-width:736px) and (max-width:1024px)
+{
+.results-wrapper .stamp-duty-info-box div.info-box {height: 210px;}
+}
+@media(min-width:600px) and (max-width:640px)
+{
+	.stamp_duty input[type="text"], select{padding:0px !important;width: 100% !important;}
+}
+
+/*******************Home loan repayment calc style********************/
+.homeloan_repayment div.sub-title {
+	background-color: #9cc14d;
+	color: white;
+	padding: 10px 0;
+}
+.homeloan_repayment div.sub-title h4 {
+	padding: 0 !important;
+	margin: 0 !important;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal !important;
+	letter-spacing: 0.03em;
+}
+.loanboxinner {
+	background-color: #2d3645;
+	color: #fff;
+}
+#intrestraterange {
+	border-radius: 10px;
+}
+#loantermrange {
+	border-radius: 10px;
+}
+
+.homeloan_repayment input[type="text"], select {min-width:100% !important;} 
+.homeloan_repayment .loan-rate-term{margin-top:20px !important; padding:0px !important;}
+.homeloan_repayment .loan-rate-term-details{margin-bottom:20px;}
+.homeloan_repayment .display-emi-amt {padding: 37px;}
+.homeloan_repayment .total-interest-payable {padding: 37px;}
+.homeloan_repayment label{color:#fff;}
+.homeloan_repayment.total-price, .homeloan_repayment .total-interest-payable .price {padding: 0px !important;}
+.homeloan_repayment sup {font-size: 20px;position: relative;}
+.homeloan_repayment div#displaytotalinterestpayable sup, #displayemiamt sup{font-size:20px;position:relative;}
+.homeloan_repayment div#displaytotalinterestpayable span.value, #displayemiamt span.value{font-size:36px;position:relative;font-weight: 500;}
+
+@media(max-width:1024px)
+{ 
+	.homeloan_repayment input.txt_input, .homeloan_repayment select.ddl_select{margin: 0px 0 20px;}
+}
+
+@media(max-width:980px)
+{
+.homeloan_repayment div.calc-output-right {margin-top: 30px;}
+}
+@media (min-width:1000px) and (max-width:1024px)
+{
+	.homeloan_repayment input[type="text"], select{width: 172px !important;}
+	.homeloan_repayment input.range-slider__range{width: 172px !important;}
+}
+
+/*******************Media********************/
+
+
+@media(max-width:736px)
+{
+input[type="text"], select {min-width: 100%;}
+.loan-amount-type label, .loan-rate-term label {margin: 10px 0 5px;}
+
+}
+@media(max-width:414px)
+{
+input[type="text"], select {
+    background-color: #d2dce2;
+    border: 1px solid #d2dce2;
+    color: #1c3142;
+    height: 39px;
+    min-height: inherit;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+}
